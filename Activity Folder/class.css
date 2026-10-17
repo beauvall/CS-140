@@ -1,0 +1,17 @@
+div {
+    background-color: #b36868;
+    border-width: 400px;
+    border-height: 80px;
+    padding: 20px; padding: 10px;30px;10px;30px;10px;30px;
+    margin: 20px;
+    text-align: center;
+}
+
+{div.card {
+    background-color: #b36868;
+    border-width: 400px;
+    border-height: 80px;
+    padding: 20px; padding: 10px;30px;10px;30px;10px;30px;
+    margin-bottom: 24px;
+    text-align: center;
+}
