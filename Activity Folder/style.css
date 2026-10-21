@@ -1,32 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans&family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
-    font-family: 'Google Sans', sans-serif;
-    background-color: #e7bd7e;
-    margin: 0;
-    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #023047;
+    background-color: #f1f8ff;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
 }
 
 h1 {
-    font-family: 'Londrina Shadow', cursive;
-    color: #3a389e;
+    color: #0077b6;
+}
+
+nav {
+    margin: 20px 0;
     text-align: center;
-    font-size: 60px;
 }
 
-h2 {
-    color: #5c3d2e;
+nav a {
+    text-decoration: none;
+    color: #0077b6;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
-h3 {
-    color: #333333;
-    line-height: 1.5;
+nav a:hover {
+    color: #fb8500;
 }
 
-p {
-    line-height: 1.6;
+nav a:visited {
+    color: #6c757d;
+}
+
+#top {
+    scroll-behavior: smooth;
+}
+
+.overview {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.emphasis {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+.deemphasis {
+    color: #6c757d;
 }
 
 img {
+    max-width: 100%;
     border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #0077b6;
 }
