@@ -1,0 +1,15 @@
+.menu {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap:20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    background-color: bisque;
+    
+}
+.special {
+    grid-column: span 3;
+    background-color: #ab3636;
+    padding: 20px;
+}
+div {background-color: #7bcea3;padding: 20px;border-radius: 10px;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  }
