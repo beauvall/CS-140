@@ -6,7 +6,7 @@ body {
 /* Header */
 header {
     background: #9ca7d5;
-    color: rgb(7, 1, 1);
+    color: #070101;
     text-align: center;
     padding: 20px;
 }
@@ -57,9 +57,20 @@ main {
     background: white;
 }
 
+/* Movie Posters */
 .card img {
     width: 100%;
-    height: auto;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    margin: 0;
 }
 
 /* Footer */
@@ -88,8 +99,16 @@ footer {
 
 /* Mobile */
 @media (max-width: 700px) {
+
     .parent {
         grid-template-columns: 1fr;
     }
 
-    nav
+    nav {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
