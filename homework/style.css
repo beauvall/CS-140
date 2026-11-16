@@ -1,0 +1,14 @@
+
+.navbar {
+  background-color: #a1e8d2;
+  padding: 0 2rem;
+  height: 64px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  /* your rules go here */
+}
